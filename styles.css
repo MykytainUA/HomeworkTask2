@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(162, 196, 14);
+}
+
+p{
+    font-size: 2vw;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+label{
+    font-size: 2vw;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.divForEncryption{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(71, 177, 50);
+    border-radius: 2vw;
+    border-color: darkgray;
+    border-style:double;
+    border-width: 3vw;
+    box-sizing: border-box;
+}
+
+.TextBox{
+    resize: none;
+    width: 80%;
+    height: 25%;
+    margin-bottom: 2vw;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.KeyInput{
+    margin-bottom: 2vw;
+    background-color: rgba(255,255,255,0.8);
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.CustomButton{
+    width: 20vw;
+    height: 5vw;
+    border-radius: 2vw;
+    background-color: rgb(222, 222, 0);
+}
+
+#mainFlexBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+}

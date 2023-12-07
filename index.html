@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Шифрування цезаря</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id = "mainFlexBox">
+            <div class = "divForEncryption">
+                <p>Введіть текст для шифрування:</p>
+                <textarea id="textAreaForTextForEncryption" class = "TextBox"></textarea>
+                <div>
+                    <label for="keyEncryptionInput">Ключ шифрування:</label>
+                    <input type="number" id="encryptionKeyInput" class = "KeyInput" name="keyEncryptionInput" min="0" max="33">
+                </div>
+                <textarea id="textAreaForTextForEncryptionAnswer" class = "TextBox" readonly></textarea>  
+                <input id = "encryptButton" class = "CustomButton" type="submit" style = "font-family: 'Comfortaa', sans-serif; font-size: 2vw;" value="Зашифрувати">  
+            </div>
+    
+            <div class = "divForEncryption">
+                <p>Введіть текст для дешифрування:</p>
+                <textarea id="textAreaForTextForDecryption" class = "TextBox"></textarea>
+                <div>
+                    <label for="keyDecryptionInput">Ключ дешифрування:</label>
+                    <input type="number" id="decryptionKeyInput" class = "KeyInput" name="keyDecryptionInput" min="0" max="33">
+                </div>
+                <textarea id="textAreaForTextForDecryptionAnswer" class = "TextBox" readonly></textarea>  
+                <input id = "decryptButton" class = "CustomButton" type="submit" style = "font-family: 'Comfortaa', sans-serif; font-size: 2vw;" value="Розшифрувати">  
+            </div>
+        </div>
+        <script src="encryption.js"></script>
+    </body>
+
+</html>
